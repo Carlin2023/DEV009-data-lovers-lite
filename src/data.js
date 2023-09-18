@@ -1,9 +1,9 @@
 // estas funciones son de ejemplo
 
-export const example = () => {
-  return 'example';
+export const filtrarPeliculas = (data,directorSeleccionado) => {
+  return data.films.filter(pelicula => pelicula.director.toLowerCase() === directorSeleccionado);
+
 };
 
-export const anotherExample = () => {
-  return 'OMG';
-};
+//export const ordenarPeliculas = ("title",data.films) => {
+//};

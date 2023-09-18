@@ -1,12 +1,49 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Data Lovers</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="root"></div>
+
+<head>
+  <meta charset="utf-8">
+  <title>Data Lovers SG</title> <!-- Este es el titulo de la página, aparece en la pestaña -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div id="root">
+    <!-- Aquí he subido la imagen de cabecera de la página, es una imagen no incluida en la Data -->
+    <img src="paisajeCabecera.jpg" alt="paisajeCabecera" class="imagenCabecera">
+    <header>
+      <h1>STUDIO GHIBLI</h1> <!-- Este es el encabezado de la página -->
+    </header>
+    <main>
+      <h2> Datos amorosos solo para l@s fans del famoso estudio Japones</h2>
+      <!-- Este es un pequeño titulo de encabezado -->
+      <!-- Aquí creé el contenedor para crear los respectivos filtros-->
+      <h3>Filtro para fans</h3>
+      <form action="/action_page.php">
+      <label for="Directores">Elige un director:</label>
+      <select name="Directores" id="Directores">
+      <option value="hayao miyazaki">Hayao Miyazaki</option> 
+      <option value="isao takahata">Isao Takahata</option>
+      <option value="yoshifumi kondō">Yoshifumi Kondō</option>
+      <option value="hiroyuki morita">Hiroyuki Morita</option>
+      <option value="gorō miyazaki">Gorō Miyazaki</option>
+      <option value="hiromasa yonebayashi">Hiromasa Yonebayashi</option>
+      </select>
+      <br><br>
+    </form>
+    <!--< Aquí vamos a realizar el filtro que ordenara la data Directores de manera alfabetica>-->
+    <h4>Ordena tus datos</h4>
+    <label for ="filtroOrden">Organizar por:</label>
+    <button name="organizar" id="OrganizarAlfabeticamente">
+    Titulo de la Película 
+   </button>
+     
+    <div id="peliculas-contenedor"></div>
+  </main>
     <script src="main.js" type="module"></script>
-  </body>
+    <footer> <!-- Este es el pie de página de la página -->
+      <p>Desarrollo Web: Carolina Álvarez.Derechos de autor © 2023. Todos los derechos reservados.</p>
+    </footer>
+</body>
+
 </html>

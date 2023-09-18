@@ -1,0 +1,95 @@
+
+/* Diseño del Titulo */
+h1  {
+    color: black;
+    background-color: #EEA382;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    font-family: "Helvetica Neue";
+    font-size: 50px;
+    
+}
+/* Diseño del sub titulo */
+h2 {color: black;
+    background-color: #EEA382;
+    display: flex;
+    justify-content: center;
+    font-family: "Helvetica Neue";
+    font-size: 25px;
+}
+/* Aquí redimensione el tamaño de la imagen de la cabecera de la página */
+.imagenCabecera{
+    width: 100%;
+    height: auto; 
+    justify-content: center; 
+}
+
+body {
+    background-color: cadetblue;
+}
+
+
+h3{
+    text-align: center;
+    font-family:"Helvetica Neue";
+    font-size: 25px
+}
+h4{
+    text-align: center;
+    font-family:"Helvetica Neue";
+    font-size: 25px;
+    margin-top: auto;
+}
+ul {
+margin: 0px;
+padding: 0%;
+list-style:none;
+line-height: 30px;
+background-color: #647390;
+text-align: center;
+}
+/* Diseño una franja inferior de color vinotinto*/
+p {background-color: #b55b46;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-family: "Helvetica Neue"
+    }
+    */
+    /* aquí dí color a los divs*/
+.div{
+    background-color: #9d655a;
+    font-family: "Helvetica Neue"; 
+}  
+ /* Aquí organicé las credenciales del mismo tamaño y de manera horizontal. */
+.card {
+    width: 200px;
+    height: 300px;
+    border: 1px;
+    margin:10px;
+    padding: 10px;
+    display: inline-block;
+    text-align: center;
+}
+.card img{
+    width: 100px;
+    height: auto;
+}
+.car-body{
+padding: 10px;
+}
+/* Dí diseño a la parte de los creditos de la persona que desarrollo la página. */
+footer{
+background-color: #647390;
+border: 2px solid black;
+font-family: "Helvetica Neue"
+}
+
+form{
+    display: flex;
+    flex-direction: column; /* Apila los elementos verticalmente */
+    align-items: center; /* Centra horizontalmente los elementos */
+    justify-content: center; /* Centra verticalmente los elementos */
+    height: 50%; /* Establece la altura del formulario para ocupar toda la altura de la ventana */
+  }
